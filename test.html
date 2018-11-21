@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Test</title>
+
+    <!--adding JQuery-->
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+
+</head>
+<style type="text/css">
+
+    #display{
+        border: 1px dashed red;
+        width: 100px;
+        height: 100px;
+    }
+
+</style>
+<body>
+     <script type="text/javascript">
+        /*jQuery(function(){
+            jQuery("button").hide();
+        });*/
+
+        $(function(){
+            $("#btn1").hide();
+
+            $(".two").click(function(){
+                $("button:not(.two)").hide();
+            });
+            $("#submit").click(function(){
+                var text = $("#textbox").val();
+                $("#display").html(text);
+                $("#textbox").val("");
+            });
+        });
+
+        
+
+     </script>  
+
+    <button id="btn1">Button 1</button>
+    <button class="two">Button 2</button>
+    <button>Button 3</button>
+
+<br>
+
+     <input id="textbox" type="text">
+     <button id="submit" type="submit">Submit</button>
+     <div id="display"></div>
+</body>
+
+
+</html>
