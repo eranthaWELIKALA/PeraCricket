@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /peracricket.local/
+
+# Redirect any route to load its .php counterpart
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

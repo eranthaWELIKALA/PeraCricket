@@ -1,0 +1,35 @@
+body {
+    position: relative;
+}
+
+#details0 {
+    padding-top: 50px;
+    height: 500px;
+    color: #000;
+}
+
+#details1 {
+    padding-top: 50px;
+    height: 600px;
+    color: #000;
+    background-color: #1E88E5;
+}
+
+#details2 {
+    padding-top: 50px;
+    height: 600px;
+    color: #000;
+}
+
+#details3 {
+    padding-top: 50px;
+    height: 600px;
+    color: #000;
+    background-color: #ff9800;
+}
+
+#details4 {
+    padding-top: 50px;
+    height: 600px;
+    color: #000;
+}

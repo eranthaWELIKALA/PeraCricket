@@ -1,0 +1,17 @@
+#one {
+    border: 10px solid black;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+.carousel .item {
+    height: 400px;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel .item {
+        height: 150px;
+    }
+}
